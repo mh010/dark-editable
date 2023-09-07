@@ -1,7 +1,7 @@
 # Getting started
 It is an alternative to [x-editable](https://github.com/vitalets/x-editable). Written in pure JavaScript.
 
-Heres a quick demo on [jfiddle](https://jsfiddle.net/YohnJohn/c3t1avrp/40/) to give you some example of how it works.
+Here's a quick demo on [jfiddle](https://jsfiddle.net/YohnJohn/c3t1avrp/40/) to give you an example of how it works.
 
 
 ## Quick start
@@ -74,7 +74,7 @@ Required
     }
     ```
 6. Write backend part: \
-    X-editable has no limitation to server-side part: you can write it on any language you prefer.\
+    X-editable has no limitation to server-side part: you can write it in any language you prefer.\
     For example, you want to validate submitted value on server:
     - If value is valid, you should return HTTP status 200 OK. Element on page will be updated automatically. No response body required.
     - If value is not valid, you should return HTTP status != 200 (e.g. 400 Bad request) with error message in response body. Element on page will not be updated and editable form will display error message.
